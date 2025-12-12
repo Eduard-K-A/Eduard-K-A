@@ -1,5 +1,13 @@
-# 💫 About Me:
-currently working on web development<br>currently learning new significant things<br>fun fact about me is i do multitasking most of the time
+## 💫 About Me
+
+Hey there! Thanks for dropping by!
+
+- 🌐 I'm currently diving deeper into **web development** and building projects that help me grow as a developer.  
+- 📘 I'm always on the lookout for **new things to learn**, whether it's a framework, a concept, or a cool tool.  
+- 🤹‍♂️ **Fun fact:** I tend to multitask a lot, it's my secret way of keeping things exciting!
+
+Feel free to explore my work or connect with me!
+
 
 
 ## 🌐 Socials:
