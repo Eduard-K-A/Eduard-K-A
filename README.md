@@ -6,7 +6,7 @@ Hey there! Thanks for dropping by!!
 - 📘 I'm always on the lookout for **new things to learn**, whether it's a framework, a concept, or a cool tool.  
 - 🤹‍♂️ **Fun fact:** I tend to multitask a lot, it's my secret way of keeping things exciting!
 
-Feel free to explore my work or connect with me!!
+Feel free to explore my work or connect with me!
 
 
 
