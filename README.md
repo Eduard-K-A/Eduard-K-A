@@ -32,8 +32,5 @@ Feel free to explore my work or connect with me!!
 ---
 [![](https://visitcount.itsvg.in/api?id=Eduard-K-A&icon=0&color=13)](https://visitcount.itsvg.in)
 
-  ## 💰 You can help me by Donating
-  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/https://paypal.me/EduardSKing) 
-
   
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
