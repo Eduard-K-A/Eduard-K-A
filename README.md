@@ -8,7 +8,6 @@ Hey there I'm Eduard! Thanks for dropping by!!
 
 Feel free to explore my work or connect with me!
 
-
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discordapp.com/users/573446422058500096) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/kingeduard/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduard-king-anterola) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:eduardkinganterola@gmail.com) 
 
