@@ -3,7 +3,7 @@
 Hey there I'm Eduard! Thanks for dropping by!
 
 - 🌐 I'm currently diving deeper into **Full-Stack Web Development**, **Mobile App Development**, **Data Science**, **Python Programming**, **C++ Programming**, and **R**. 
-- 📘 I'm always on the lookout for **new things to learn**, whether it's a framework, a concept, an algorithm, or a cool tool.  
+- 📘 I'm always on the lookout for **new things to learn**, whether it's a framework, a concept, an algorithm, or a cool tool to boost my productivity.  
 - 🤹‍♂️ **Fun fact:** I tend to multitask a lot, it's my secret way of keeping things exciting and fun!
 
 Feel free to explore my works or connect with me!
