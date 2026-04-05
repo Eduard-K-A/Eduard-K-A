@@ -1,6 +1,6 @@
 ## 💫 About Me
 
-Hey there I'm Eduard!
+Hello there I'm Eduard!
 
 - 🌐 I'm currently diving deeper into **Full-Stack Web Development**, **Mobile App Development**, **Data Science**, **Python Programming**, **C++ Programming**, and **R**. 
 - 📘 I'm always on the lookout for **new things to learn**, whether it's a framework, a concept, an algorithm, or a cool tool to boost my productivity.  
