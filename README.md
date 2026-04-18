@@ -6,7 +6,7 @@ Hello there I'm Eduard King! Feel Free To Explore more about me!
 - 📘 I'm always on the lookout for **new things to learn**, whether it's a framework, a concept, an algorithm, or a cool tool to boost my productivity.  
 - 🤹‍♂️ **Fun fact:** I tend to multitask a lot, it's my secret way of keeping things exciting and fun!
 
-Feel free to explore my works or connect with me!!
+Feel free to explore my works or connect with me!
 
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discordapp.com/users/573446422058500096) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduard-king-anterola) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:eduardkinganterola@gmail.com) 
