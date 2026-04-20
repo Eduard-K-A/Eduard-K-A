@@ -1,6 +1,6 @@
 ## 💫 About Me
 
-Hello there I'm Eduard King! Feel Free To Explore more about me!
+Hello there I am Eduard King! Feel Free To Explore more about me!
 
 - 🌐 I'm currently diving deeper into **Full-Stack Web Development**, **Mobile App Development**, **Data Science**, **Python Programming**, **C++ Programming**, and **R**. 
 - 📘 I'm always on the lookout for **new things to learn**, whether it's a framework, a concept, an algorithm, or a cool tool to boost my productivity.  
