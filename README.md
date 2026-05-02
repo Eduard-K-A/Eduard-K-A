@@ -4,7 +4,7 @@ Hello there I am Eduard! Feel Free To Explore more about me!
 
 - 🌐 I'm currently diving deeper into **Full-Stack Web Development**, **Mobile App Development**, **Data Science**, **Python Programming**, **C++ Programming**, and a little bit of **R**. 
 - 📘 I'm always on the lookout for **new things to learn**, whether it's a framework, a concept, an algorithm, or a cool tool to boost my productivity.  
-- 🤹‍♂️ **Fun fact:** I tend to multitask a lot, it's my secret way of keeping things exciting and fun!
+- 🤹‍♂️ **Fun fact:** I tend to multitask a lot, it's my secret way of keeping things exciting and fun!!
   
 Feel free to explore my works or connect with me!
 
@@ -31,4 +31,4 @@ Feel free to explore my works or connect with me!
 [![](https://visitcount.itsvg.in/api?id=Eduard-K-A&icon=0&color=13)](https://visitcount.itsvg.in)
 
   
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
