@@ -2,7 +2,7 @@
 
 Hello there I am Eduard! Feel Free To Explore more about me!
 
-- 🌐 I'm currently diving deeper into **Full-Stack Web Development**, **Mobile App Development**, **Data Science**, **Python Programming**, **C++ Programming**, and a little bit of **R**. 
+- 🌐 I'm currently diving deeper into **Full-Stack Web Development**, **Mobile App Development**, **Data Science**, **Python Programming**, **C++ Programming**, and a little bit of **R** for data analysis. 
 - 📘 I'm always on the lookout for **new things to learn**, whether it's a framework, a concept, an algorithm, or a cool tool to boost my productivity.  
 - 🤹‍♂️ **Fun fact:** I tend to multitask a lot, it's my secret way of keeping things exciting and fun!!
   
