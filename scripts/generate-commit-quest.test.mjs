@@ -84,3 +84,40 @@ test('renderSvg contains required arcade sections and escaped quest data', () =>
   assert.doesNotMatch(svg, /Build <Vault>/);
   assert.doesNotMatch(svg, /H550 310/);
 });
+
+test('renderSvg includes clickable adventure destinations', () => {
+  const state = {
+    ...createFallbackState(new Date('2026-06-04T12:00:00Z')),
+    currentQuest: {
+      name: 'The Vault',
+      description: 'Ship the next release',
+      url: 'https://github.com/Eduard-K-A/the-vault',
+    },
+  };
+
+  const svg = renderSvg(state);
+
+  assert.match(svg, /href="https:\/\/github\.com\/Eduard-K-A\/the-vault"/);
+  assert.match(svg, /href="https:\/\/eduard-king\.vercel\.app"/);
+  assert.match(svg, /q=mobile%20OR%20expo%20OR%20react-native/);
+  assert.match(svg, /q=electron%20OR%20desktop/);
+  assert.match(svg, /q=ai%20OR%20ml%20OR%20data/);
+  assert.match(svg, /tab=achievements/);
+  assert.match(svg, /OPEN CARD TO EXPLORE/);
+});
+
+test('renderSvg falls back to the GitHub profile for unsafe quest URLs', () => {
+  const state = {
+    ...createFallbackState(new Date('2026-06-04T12:00:00Z')),
+    currentQuest: {
+      name: 'Unsafe quest',
+      description: 'Must not become a script link',
+      url: 'javascript:alert(1)',
+    },
+  };
+
+  const svg = renderSvg(state);
+
+  assert.doesNotMatch(svg, /javascript:/);
+  assert.match(svg, /href="https:\/\/github\.com\/Eduard-K-A"/);
+});

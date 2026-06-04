@@ -147,6 +147,15 @@ function truncate(value, length) {
   return text.length > length ? `${text.slice(0, length - 1)}…` : text;
 }
 
+function safeHttpsUrl(value, fallback) {
+  try {
+    const url = new URL(value);
+    return url.protocol === 'https:' ? url.href : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
 function statBar(label, value, y, color) {
   const width = Math.round((value / 99) * 176);
   return `
@@ -174,6 +183,14 @@ export function renderSvg(state) {
   const xpWidth = Math.round((state.xp / state.xpToNextLevel) * 230);
   const syncLabel = state.synced ? 'ONLINE' : 'FALLBACK';
   const world = state.world;
+  const username = encodeURIComponent(state.username);
+  const profileUrl = `https://github.com/${username}`;
+  const questUrl = safeHttpsUrl(state.currentQuest.url, profileUrl);
+  const portfolioUrl = 'https://eduard-king.vercel.app';
+  const mobileUrl = `https://github.com/search?q=mobile%20OR%20expo%20OR%20react-native%20user%3A${username}&type=repositories`;
+  const desktopUrl = `https://github.com/search?q=electron%20OR%20desktop%20user%3A${username}&type=repositories`;
+  const aiUrl = `https://github.com/search?q=ai%20OR%20ml%20OR%20data%20user%3A${username}&type=repositories`;
+  const achievementsUrl = `${profileUrl}?tab=achievements`;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title description">
   <title id="title">Commit Quest Arcade</title>
@@ -208,6 +225,8 @@ export function renderSvg(state) {
       .ability { fill: #d2a8ff; font-size: 10px; }
       .quest { fill: #f4c95d; font-size: 12px; font-weight: 700; }
       .quest-note { fill: #b1bac4; font-size: 10px; }
+      .click-target { fill: transparent; stroke: transparent; stroke-width: 2; cursor: pointer; pointer-events: all; }
+      a:hover .click-target, a:focus .click-target { fill: #7ee78710; stroke: #7ee787; }
     </style>
   </defs>
 
@@ -216,6 +235,7 @@ export function renderSvg(state) {
   <path d="M8 54H892" stroke="#26354a"/>
   <text x="30" y="37" class="title" filter="url(#glow)">COMMIT QUEST ARCADE</text>
   <text x="870" y="34" class="micro ${state.synced ? 'open' : 'locked'}" text-anchor="end">● ${syncLabel} · ${escapeXml(state.updatedAt)}</text>
+  <text x="870" y="49" class="micro label" text-anchor="end">OPEN CARD TO EXPLORE</text>
 
   <rect x="25" y="72" width="300" height="232" rx="10" fill="#0b1422" stroke="#26354a"/>
   <text x="43" y="96" class="panel-title">ADVENTURER</text>
@@ -278,6 +298,35 @@ export function renderSvg(state) {
   <text x="482" y="391" class="tiny label">🎯 YOLO</text>
   <text x="570" y="391" class="tiny label">⚡ Quickdraw</text>
   <text x="852" y="391" class="tiny value">4 realms mapped</text>
+
+  <a href="${escapeXml(profileUrl)}" target="_blank">
+    <title>Open Eduard's GitHub profile</title>
+    <rect class="click-target" x="25" y="72" width="300" height="232" rx="10"/>
+  </a>
+  <a href="${escapeXml(questUrl)}" target="_blank">
+    <title>Open the current quest repository</title>
+    <rect class="click-target" x="342" y="72" width="533" height="118" rx="10"/>
+  </a>
+  <a href="${escapeXml(portfolioUrl)}" target="_blank">
+    <title>Explore Web Woods</title>
+    <rect class="click-target" x="356" y="244" width="118" height="52" rx="7"/>
+  </a>
+  <a href="${escapeXml(mobileUrl)}" target="_blank">
+    <title>Explore Mobile Marsh</title>
+    <rect class="click-target" x="480" y="244" width="118" height="52" rx="7"/>
+  </a>
+  <a href="${escapeXml(desktopUrl)}" target="_blank">
+    <title>Explore Desktop Citadel</title>
+    <rect class="click-target" x="604" y="244" width="118" height="52" rx="7"/>
+  </a>
+  <a href="${escapeXml(aiUrl)}" target="_blank">
+    <title>Explore AI Peaks</title>
+    <rect class="click-target" x="728" y="244" width="118" height="52" rx="7"/>
+  </a>
+  <a href="${escapeXml(achievementsUrl)}" target="_blank">
+    <title>Open GitHub achievements</title>
+    <rect class="click-target" x="342" y="348" width="533" height="56" rx="10"/>
+  </a>
 </svg>`;
 }
 
