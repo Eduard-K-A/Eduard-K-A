@@ -1,34 +1,123 @@
-## 💫 About Me
+<div align="center">
 
-Hello there I am Eduard! Feel Free To Explore more about me!
+# Hi, I'm Eduard King Anterola
 
-- 🌐 I'm currently diving deeper into **Full-Stack Web Development**, **Mobile App Development**, **Data Science**, **Python Programming**, **C++ Programming**, and a little bit of **R** for data analysis. 
-- 📘 I'm always on the lookout for **new things to learn**, whether it's a framework, a concept, an algorithm, or a cool tool to boost my productivity.  
-- 🤹‍♂️ **Fun fact:** I tend to multitask a lot, it's my secret way of keeping things exciting and fun!
-  
-Feel free to explore my works or connect with me!
+### Computer Science Student · Full-Stack Developer · Aspiring ML Engineer
 
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discordapp.com/users/573446422058500096) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduard-king-anterola) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:eduardkinganterola@gmail.com) 
+I build full-stack, mobile, desktop, and AI-powered software with a focus on practical, reliable user experiences.
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=flat&logo=windows-terminal&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=flat&logo=render&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white) ![Bun](https://img.shields.io/badge/Bun-%23000000.svg?style=flat&logo=bun&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=flat&logo=bootstrap&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB) ![JWT](https://img.shields.io/badge/JWT-black?style=flat&logo=JSON%20web%20tokens) ![Context-API](https://img.shields.io/badge/Context--Api-000000?style=flat&logo=react) ![Next JS](https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=react-router&logoColor=white) ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=flat&logo=react%20query&logoColor=white) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=flat&logo=yarn&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=flat&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white) ![Prettier](https://img.shields.io/badge/prettier-%23F7B93E.svg?style=flat&logo=prettier&logoColor=black)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Eduard-K-A&theme=transparent&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Eduard-K-A&theme=transparent&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Eduard-K-A&theme=transparent&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-0A66C2?style=for-the-badge&logo=vercel&logoColor=white)](https://eduard-king.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduard-king-anterola/)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eduardkinganterola@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Eduard-K-A)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Eduard-K-A&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+![Profile Views](https://komarev.com/ghpvc/?username=Eduard-K-A&style=flat-square&color=0A66C2)
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+</div>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Eduard-K-A&limit=5&theme=radical&combine_all_yearly_contributions=true)
+## About Me
 
----
-[![](https://visitcount.itsvg.in/api?id=Eduard-K-A&icon=0&color=13)](https://visitcount.itsvg.in)
+- Studying **Bachelor of Science in Computer Science** at **De La Salle Lipa**
+- Serving as **Back-End Developer Head** of the AWS Learning Club
+- Former **DevOps Head** of DLSL AnimoDev
+- Building across full-stack web, mobile, desktop, and AI-assisted applications
+- Expanding my skills in **AI engineering, machine learning, data engineering, MLOps, and LLMOps**
+- Open to **internships, freelance engagements, entry-level roles, and remote opportunities**
 
-  
+## Tech Stack
 
+**Languages**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+
+**Frontend & Mobile**
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+
+**Backend & Databases**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![PostGIS](https://img.shields.io/badge/PostGIS-336791?style=flat-square&logo=postgresql&logoColor=white)
+
+**AI & Data**
+
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+
+**Tools & Deployment**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white)
+![PowerSync](https://img.shields.io/badge/PowerSync-6C47FF?style=flat-square&logoColor=white)
+
+## Leadership & Current Focus
+
+- As **Back-End Developer Head at AWS Learning Club**, I help design maintainable backend systems, promote cloud-native practices, and mentor student developers.
+- As former **DevOps Head at DLSL AnimoDev**, I supported deployment pipelines, infrastructure, and collaborative software projects.
+- I am currently deepening my knowledge of **machine learning, statistical analysis, data engineering, Hugging Face, MLOps, and LLMOps** through structured learning and hands-on projects.
+
+## GitHub Analytics
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Eduard-K-A&theme=github_dark" alt="Eduard's GitHub profile details" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Eduard-K-A&theme=github_dark" alt="Eduard's GitHub stats" /><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Eduard-K-A&theme=github_dark" alt="Eduard's repositories per language" />
+
+</div>
+
+## GitHub Achievements
+
+<div align="center">
+
+<a href="https://github.com/Eduard-K-A?achievement=pull-shark&tab=achievements"><img width="90" src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" alt="Pull Shark achievement" /></a>
+<a href="https://github.com/Eduard-K-A?achievement=yolo&tab=achievements"><img width="90" src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" alt="YOLO achievement" /></a>
+<a href="https://github.com/Eduard-K-A?achievement=quickdraw&tab=achievements"><img width="90" src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" alt="Quickdraw achievement" /></a>
+
+**Pull Shark · YOLO · Quickdraw**
+
+### Contribution Trophies
+
+<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://trophy.ryglcloud.net/?username=Eduard-K-A&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1" alt="Eduard's GitHub contribution trophies" /></a>
+
+</div>
+
+## Let's Connect
+
+I am interested in software engineering, full-stack development, mobile development, and AI/ML-focused opportunities.
+
+- Portfolio: [eduard-king.vercel.app](https://eduard-king.vercel.app)
+- LinkedIn: [linkedin.com/in/eduard-king-anterola](https://www.linkedin.com/in/eduard-king-anterola/)
+- Email: [eduardkinganterola@gmail.com](mailto:eduardkinganterola@gmail.com)
+- GitHub: [github.com/Eduard-K-A](https://github.com/Eduard-K-A)
+
+## Commit Quest Arcade
+
+My public GitHub activity powers this retro RPG character sheet and quest map, refreshed daily.
+
+<div align="center">
+
+<img src="./assets/commit-quest.svg" alt="Commit Quest Arcade character sheet generated from Eduard's GitHub activity" />
+
+</div>
