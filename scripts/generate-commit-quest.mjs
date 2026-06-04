@@ -69,10 +69,10 @@ export function createFallbackState(now = new Date()) {
       url: `https://github.com/${USERNAME}`,
     },
     world: [
-      { name: 'Web Woods', unlocked: true },
-      { name: 'Mobile Marsh', unlocked: true },
-      { name: 'Desktop Citadel', unlocked: true },
-      { name: 'AI Peaks', unlocked: true },
+      { name: 'Ely Sales Agent', language: 'TypeScript', url: `https://github.com/${USERNAME}` },
+      { name: 'The Vault', language: 'TypeScript', url: `https://github.com/${USERNAME}` },
+      { name: 'TaskOverflow', language: 'TypeScript', url: `https://github.com/${USERNAME}` },
+      { name: 'CleanOps', language: 'TypeScript', url: `https://github.com/${USERNAME}` },
     ],
     updatedAt: now.toISOString().slice(0, 10),
     synced: false,
@@ -85,6 +85,41 @@ function clamp(value, minimum = 0, maximum = 99) {
 
 function countMatches(repositories, matcher) {
   return repositories.filter((repository) => matcher(repository)).length;
+}
+
+function recencyBonus(updatedAt, now) {
+  const ageInDays = Math.max(0, (now - new Date(updatedAt)) / 86_400_000);
+  if (ageInDays <= 30) return 20;
+  if (ageInDays <= 90) return 15;
+  if (ageInDays <= 180) return 10;
+  if (ageInDays <= 365) return 5;
+  return 0;
+}
+
+export function rankTopRepositories(repositories, username, now = new Date()) {
+  return repositories
+    .filter((repository) =>
+      repository
+      && !repository.isFork
+      && repository.name.toLowerCase() !== username.toLowerCase())
+    .map((repository) => ({
+      name: repository.name,
+      language: repository.primaryLanguage?.name || 'Multi-stack',
+      url: repository.url,
+      stars: repository.stargazerCount || 0,
+      forks: repository.forkCount || 0,
+      updatedAt: repository.updatedAt,
+      score:
+        (repository.stargazerCount || 0) * 10
+        + (repository.forkCount || 0) * 5
+        + recencyBonus(repository.updatedAt, now)
+        + (repository.primaryLanguage?.name ? 3 : 0),
+    }))
+    .sort((left, right) =>
+      right.score - left.score
+      || right.stars - left.stars
+      || right.updatedAt.localeCompare(left.updatedAt))
+    .slice(0, 4);
 }
 
 export function createActivityState(data, now = new Date()) {
@@ -131,12 +166,7 @@ export function createActivityState(data, now = new Date()) {
           description: 'The quest board is ready for a new public project.',
           url: `https://github.com/${user.login}`,
         },
-    world: [
-      { name: 'Web Woods', unlocked: true },
-      { name: 'Mobile Marsh', unlocked: repositories.some((repo) => /mobile|expo|native/i.test(`${repo.name} ${repo.description || ''}`)) },
-      { name: 'Desktop Citadel', unlocked: repositories.some((repo) => /desktop|electron/i.test(`${repo.name} ${repo.description || ''}`)) },
-      { name: 'AI Peaks', unlocked: aiRepos > 0 },
-    ],
+    world: rankTopRepositories(repositories, user.login, now),
     updatedAt: now.toISOString().slice(0, 10),
     synced: true,
   };
@@ -165,15 +195,13 @@ function statBar(label, value, y, color) {
     <text x="304" y="${y}" class="tiny value">${value}</text>`;
 }
 
-function mapNode(x, y, label, unlocked, color) {
-  const fill = unlocked ? color : '#26354a';
-  const status = unlocked ? 'UNLOCKED' : 'LOCKED';
+function mapNode(x, y, repository, color) {
   return `
     <g>
-      <rect x="${x}" y="${y}" width="118" height="52" rx="7" fill="#111d2e" stroke="${fill}" stroke-width="2"/>
-      <circle cx="${x + 18}" cy="${y + 18}" r="7" fill="${fill}"/>
-      <text x="${x + 32}" y="${y + 21}" class="tiny map-title">${escapeXml(label)}</text>
-      <text x="${x + 14}" y="${y + 40}" class="micro ${unlocked ? 'open' : 'locked'}">${status}</text>
+      <rect x="${x}" y="${y}" width="118" height="52" rx="7" fill="#111d2e" stroke="${color}" stroke-width="2"/>
+      <circle cx="${x + 18}" cy="${y + 18}" r="7" fill="${color}"/>
+      <text x="${x + 32}" y="${y + 21}" class="tiny map-title">${escapeXml(truncate(repository.name, 15))}</text>
+      <text x="${x + 14}" y="${y + 40}" class="micro open">${escapeXml(truncate(repository.language, 16))}</text>
     </g>`;
 }
 
@@ -186,11 +214,9 @@ export function renderSvg(state) {
   const username = encodeURIComponent(state.username);
   const profileUrl = `https://github.com/${username}`;
   const questUrl = safeHttpsUrl(state.currentQuest.url, profileUrl);
-  const portfolioUrl = 'https://eduard-king.vercel.app';
-  const mobileUrl = `https://github.com/search?q=mobile%20OR%20expo%20OR%20react-native%20user%3A${username}&type=repositories`;
-  const desktopUrl = `https://github.com/search?q=electron%20OR%20desktop%20user%3A${username}&type=repositories`;
-  const aiUrl = `https://github.com/search?q=ai%20OR%20ml%20OR%20data%20user%3A${username}&type=repositories`;
   const achievementsUrl = `${profileUrl}?tab=achievements`;
+  const fallbackNode = { name: 'Explore GitHub', language: 'Repository', url: profileUrl };
+  const repositories = [...world, fallbackNode, fallbackNode, fallbackNode, fallbackNode].slice(0, 4);
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title description">
   <title id="title">Commit Quest Arcade</title>
@@ -285,19 +311,19 @@ export function renderSvg(state) {
   <text x="852" y="168" class="tiny value">${state.streak} day streak</text>
 
   <rect x="342" y="204" width="533" height="130" rx="10" fill="#0b1422" stroke="#26354a"/>
-  <text x="362" y="228" class="panel-title">WORLD MAP</text>
+  <text x="362" y="228" class="panel-title">TOP REPOSITORIES</text>
   <path d="M474 270H480M598 270H604M722 270H728" stroke="#303d52" stroke-width="2" stroke-dasharray="3 3"/>
-  ${mapNode(356, 244, world[0].name, world[0].unlocked, '#58a6ff')}
-  ${mapNode(480, 244, world[1].name, world[1].unlocked, '#7ee787')}
-  ${mapNode(604, 244, world[2].name, world[2].unlocked, '#f4c95d')}
-  ${mapNode(728, 244, world[3].name, world[3].unlocked, '#d2a8ff')}
+  ${mapNode(356, 244, repositories[0], '#58a6ff')}
+  ${mapNode(480, 244, repositories[1], '#7ee787')}
+  ${mapNode(604, 244, repositories[2], '#f4c95d')}
+  ${mapNode(728, 244, repositories[3], '#d2a8ff')}
 
   <rect x="342" y="348" width="533" height="56" rx="10" fill="#0b1422" stroke="#26354a"/>
   <text x="362" y="371" class="panel-title">BADGES</text>
   <text x="362" y="391" class="tiny label">🦈 Pull Shark</text>
   <text x="482" y="391" class="tiny label">🎯 YOLO</text>
   <text x="570" y="391" class="tiny label">⚡ Quickdraw</text>
-  <text x="852" y="391" class="tiny value">4 realms mapped</text>
+  <text x="852" y="391" class="tiny value">4 repos ranked</text>
 
   <a href="${escapeXml(profileUrl)}" target="_blank">
     <title>Open Eduard's GitHub profile</title>
@@ -307,20 +333,20 @@ export function renderSvg(state) {
     <title>Open the current quest repository</title>
     <rect class="click-target" x="342" y="72" width="533" height="118" rx="10"/>
   </a>
-  <a href="${escapeXml(portfolioUrl)}" target="_blank">
-    <title>Explore Web Woods</title>
+  <a href="${escapeXml(safeHttpsUrl(repositories[0].url, profileUrl))}" target="_blank">
+    <title>Open ${escapeXml(repositories[0].name)}</title>
     <rect class="click-target" x="356" y="244" width="118" height="52" rx="7"/>
   </a>
-  <a href="${escapeXml(mobileUrl)}" target="_blank">
-    <title>Explore Mobile Marsh</title>
+  <a href="${escapeXml(safeHttpsUrl(repositories[1].url, profileUrl))}" target="_blank">
+    <title>Open ${escapeXml(repositories[1].name)}</title>
     <rect class="click-target" x="480" y="244" width="118" height="52" rx="7"/>
   </a>
-  <a href="${escapeXml(desktopUrl)}" target="_blank">
-    <title>Explore Desktop Citadel</title>
+  <a href="${escapeXml(safeHttpsUrl(repositories[2].url, profileUrl))}" target="_blank">
+    <title>Open ${escapeXml(repositories[2].name)}</title>
     <rect class="click-target" x="604" y="244" width="118" height="52" rx="7"/>
   </a>
-  <a href="${escapeXml(aiUrl)}" target="_blank">
-    <title>Explore AI Peaks</title>
+  <a href="${escapeXml(safeHttpsUrl(repositories[3].url, profileUrl))}" target="_blank">
+    <title>Open ${escapeXml(repositories[3].name)}</title>
     <rect class="click-target" x="728" y="244" width="118" height="52" rx="7"/>
   </a>
   <a href="${escapeXml(achievementsUrl)}" target="_blank">
@@ -355,6 +381,8 @@ async function fetchGitHubData(token, username) {
             url
             updatedAt
             isFork
+            stargazerCount
+            forkCount
             primaryLanguage { name }
           }
         }
