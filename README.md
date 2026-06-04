@@ -114,10 +114,10 @@ I am interested in software engineering, full-stack development, mobile developm
 
 ## Commit Quest Arcade
 
-My public GitHub activity powers this retro RPG character sheet and quest map, refreshed daily.
+My public GitHub activity powers this retro RPG character sheet and quest map, refreshed daily. Click the card to explore.
 
 <div align="center">
 
-<img src="./assets/commit-quest.svg" alt="Commit Quest Arcade character sheet generated from Eduard's GitHub activity" />
+<a href="https://raw.githubusercontent.com/Eduard-K-A/Eduard-K-A/main/assets/commit-quest.svg"><img src="./assets/commit-quest.svg" alt="Commit Quest Arcade character sheet generated from Eduard's GitHub activity" /></a>
 
 </div>
