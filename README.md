@@ -17,7 +17,7 @@ I build full-stack, mobile, desktop, and AI-powered software with a focus on pra
 
 ## About Me
 
-- Studying **Bachelor of Science in Computer Science** at **De La Salle Lipa**
+- Studying **Bachelor of Science in Computer Science** at **De La Salle Lipa, Philippines**
 - Serving as **Back-End Developer Head** of the AWS Learning Club
 - Former **DevOps Head** of DLSL AnimoDev
 - Building across full-stack web, mobile, desktop, and AI-assisted applications
