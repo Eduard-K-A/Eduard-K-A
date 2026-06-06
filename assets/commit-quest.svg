@@ -67,28 +67,28 @@
   <text x="132" y="150" class="subtitle">THE FULL-STACK ADVENTURER</text>
   <text x="132" y="178" class="panel-title">LEVEL 13</text>
   <rect x="132" y="190" width="160" height="9" rx="4.5" fill="#17263b"/>
-  <rect x="132" y="190" width="107" height="9" rx="4.5" fill="url(#xp)"/>
-  <text x="132" y="216" class="tiny label">XP 67/100</text>
-  <text x="292" y="216" class="tiny value">1267 contributions</text>
+  <rect x="132" y="190" width="126" height="9" rx="4.5" fill="url(#xp)"/>
+  <text x="132" y="216" class="tiny label">XP 79/100</text>
+  <text x="292" y="216" class="tiny value">1279 contributions</text>
   
     <text x="58" y="238" class="small label">CODE</text>
     <rect x="118" y="228" width="176" height="8" rx="4" fill="#17263b"/>
-    <rect x="118" y="228" width="176" height="8" rx="4" fill="#58a6ff"/>
-    <text x="304" y="238" class="tiny value">99</text>
+    <rect x="118" y="228" width="39" height="8" rx="4" fill="#58a6ff"/>
+    <text x="304" y="238" class="tiny value">222</text>
   
     <text x="58" y="256" class="small label">BUILD</text>
     <rect x="118" y="246" width="176" height="8" rx="4" fill="#17263b"/>
-    <rect x="118" y="246" width="176" height="8" rx="4" fill="#7ee787"/>
-    <text x="304" y="256" class="tiny value">99</text>
+    <rect x="118" y="246" width="33" height="8" rx="4" fill="#7ee787"/>
+    <text x="304" y="256" class="tiny value">189</text>
   
     <text x="58" y="274" class="small label">DATA</text>
     <rect x="118" y="264" width="176" height="8" rx="4" fill="#17263b"/>
-    <rect x="118" y="264" width="36" height="8" rx="4" fill="#d2a8ff"/>
+    <rect x="118" y="264" width="4" height="8" rx="4" fill="#d2a8ff"/>
     <text x="304" y="274" class="tiny value">20</text>
   
     <text x="58" y="292" class="small label">AI</text>
     <rect x="118" y="282" width="176" height="8" rx="4" fill="#17263b"/>
-    <rect x="118" y="282" width="121" height="8" rx="4" fill="#ff7b72"/>
+    <rect x="118" y="282" width="12" height="8" rx="4" fill="#ff7b72"/>
     <text x="304" y="292" class="tiny value">68</text>
 
   <rect x="25" y="318" width="300" height="86" rx="10" fill="#0b1422" stroke="#26354a"/>
@@ -103,8 +103,8 @@
   <text x="362" y="124" class="quest">⚔ Eduard-K-A</text>
   <text x="362" y="146" class="quest-note">Continue building Eduard-K-A.</text>
   <rect x="362" y="162" width="230" height="8" rx="4" fill="#17263b"/>
-  <rect x="362" y="162" width="154" height="8" rx="4" fill="url(#xp)"/>
-  <text x="852" y="168" class="tiny value">5 day streak</text>
+  <rect x="362" y="162" width="182" height="8" rx="4" fill="url(#xp)"/>
+  <text x="852" y="168" class="tiny value">6 day streak</text>
 
   <rect x="342" y="204" width="533" height="130" rx="10" fill="#0b1422" stroke="#26354a"/>
   <text x="362" y="228" class="panel-title">TOP REPOSITORIES</text>
