@@ -79,7 +79,7 @@ export function createFallbackState(now = new Date()) {
   };
 }
 
-function clamp(value, minimum = 0, maximum = 99) {
+function clamp(value, minimum = 0, maximum = 1000) {
   return Math.max(minimum, Math.min(maximum, Math.round(value)));
 }
 
@@ -187,7 +187,7 @@ function safeHttpsUrl(value, fallback) {
 }
 
 function statBar(label, value, y, color) {
-  const width = Math.round((value / 99) * 176);
+  const width = Math.round((value / 1000) * 176);
   return `
     <text x="58" y="${y}" class="small label">${escapeXml(label)}</text>
     <rect x="118" y="${y - 10}" width="176" height="8" rx="4" fill="#17263b"/>
