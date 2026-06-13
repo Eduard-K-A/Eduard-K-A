@@ -19,7 +19,7 @@ I build full-stack, mobile, desktop, and AI-powered software with a focus on pra
 
 - Studying **Bachelor of Science in Computer Science** at **De La Salle Lipa, Philippines**
 - Serving as **Back-End Developer Head** of the AWS Learning Club
-- Former **DevOps Head** of DLSL AnimoDev
+- Former **DevOps Manager Head** of DLSL AnimoDev
 - Building across full-stack web, mobile, desktop, and AI-assisted applications
 - Expanding my skills in **AI engineering, machine learning, data engineering, MLOps, and LLMOps**
 - Open to **internships, freelance engagements, entry-level roles, and remote opportunities**
