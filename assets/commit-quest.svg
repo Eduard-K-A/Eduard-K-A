@@ -40,7 +40,7 @@
   <rect x="8" y="8" width="884" height="414" rx="10" fill="url(#panel)" stroke="#303d52" stroke-width="2"/>
   <path d="M8 54H892" stroke="#26354a"/>
   <text x="30" y="37" class="title" filter="url(#glow)">COMMIT QUEST ARCADE</text>
-  <text x="870" y="34" class="micro open" text-anchor="end">● ONLINE · 2026-07-05</text>
+  <text x="870" y="34" class="micro open" text-anchor="end">● ONLINE · 2026-07-06</text>
   <text x="870" y="49" class="micro label" text-anchor="end">OPEN CARD TO EXPLORE</text>
 
   <rect x="25" y="72" width="300" height="232" rx="10" fill="#0b1422" stroke="#26354a"/>
@@ -100,8 +100,8 @@
 
   <rect x="342" y="72" width="533" height="118" rx="10" fill="#0b1422" stroke="#26354a"/>
   <text x="362" y="96" class="panel-title">CURRENT QUEST</text>
-  <text x="362" y="124" class="quest">⚔ Eduard-K-A</text>
-  <text x="362" y="146" class="quest-note">Continue building Eduard-K-A.</text>
+  <text x="362" y="124" class="quest">⚔ taskbuddy</text>
+  <text x="362" y="146" class="quest-note">Continue building taskbuddy.</text>
   <rect x="362" y="162" width="230" height="8" rx="4" fill="#17263b"/>
   <rect x="362" y="162" width="97" height="8" rx="4" fill="url(#xp)"/>
   <text x="852" y="168" class="tiny value">0 day streak</text>
@@ -113,21 +113,21 @@
     <g>
       <rect x="356" y="244" width="118" height="52" rx="7" fill="#111d2e" stroke="#58a6ff" stroke-width="2"/>
       <circle cx="374" cy="262" r="7" fill="#58a6ff"/>
-      <text x="388" y="265" class="tiny map-title">final-project-…</text>
+      <text x="388" y="265" class="tiny map-title">taskbuddy</text>
       <text x="370" y="284" class="micro open">TypeScript</text>
     </g>
   
     <g>
       <rect x="480" y="244" width="118" height="52" rx="7" fill="#111d2e" stroke="#7ee787" stroke-width="2"/>
       <circle cx="498" cy="262" r="7" fill="#7ee787"/>
-      <text x="512" y="265" class="tiny map-title">cleanOps</text>
+      <text x="512" y="265" class="tiny map-title">final-project-…</text>
       <text x="494" y="284" class="micro open">TypeScript</text>
     </g>
   
     <g>
       <rect x="604" y="244" width="118" height="52" rx="7" fill="#111d2e" stroke="#f4c95d" stroke-width="2"/>
       <circle cx="622" cy="262" r="7" fill="#f4c95d"/>
-      <text x="636" y="265" class="tiny map-title">taskbuddy</text>
+      <text x="636" y="265" class="tiny map-title">cleanOps</text>
       <text x="618" y="284" class="micro open">TypeScript</text>
     </g>
   
@@ -149,20 +149,20 @@
     <title>Open Eduard's GitHub profile</title>
     <rect class="click-target" x="25" y="72" width="300" height="232" rx="10"/>
   </a>
-  <a href="https://github.com/Eduard-K-A/Eduard-K-A" target="_blank">
+  <a href="https://github.com/erianthe17/taskbuddy" target="_blank">
     <title>Open the current quest repository</title>
     <rect class="click-target" x="342" y="72" width="533" height="118" rx="10"/>
   </a>
+  <a href="https://github.com/erianthe17/taskbuddy" target="_blank">
+    <title>Open taskbuddy</title>
+    <rect class="click-target" x="356" y="244" width="118" height="52" rx="7"/>
+  </a>
   <a href="https://github.com/Eduard-K-A/final-project-10-webdevt" target="_blank">
     <title>Open final-project-10-webdevt</title>
-    <rect class="click-target" x="356" y="244" width="118" height="52" rx="7"/>
+    <rect class="click-target" x="480" y="244" width="118" height="52" rx="7"/>
   </a>
   <a href="https://github.com/Eduard-K-A/cleanOps" target="_blank">
     <title>Open cleanOps</title>
-    <rect class="click-target" x="480" y="244" width="118" height="52" rx="7"/>
-  </a>
-  <a href="https://github.com/erianthe17/taskbuddy" target="_blank">
-    <title>Open taskbuddy</title>
     <rect class="click-target" x="604" y="244" width="118" height="52" rx="7"/>
   </a>
   <a href="https://github.com/ShanPla/final-project-1-mobapp" target="_blank">
