@@ -40,7 +40,7 @@
   <rect x="8" y="8" width="884" height="414" rx="10" fill="url(#panel)" stroke="#303d52" stroke-width="2"/>
   <path d="M8 54H892" stroke="#26354a"/>
   <text x="30" y="37" class="title" filter="url(#glow)">COMMIT QUEST ARCADE</text>
-  <text x="870" y="34" class="micro open" text-anchor="end">● ONLINE · 2026-07-06</text>
+  <text x="870" y="34" class="micro open" text-anchor="end">● ONLINE · 2026-07-07</text>
   <text x="870" y="49" class="micro label" text-anchor="end">OPEN CARD TO EXPLORE</text>
 
   <rect x="25" y="72" width="300" height="232" rx="10" fill="#0b1422" stroke="#26354a"/>
