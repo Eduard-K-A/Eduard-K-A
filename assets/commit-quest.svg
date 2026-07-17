@@ -40,7 +40,7 @@
   <rect x="8" y="8" width="884" height="414" rx="10" fill="url(#panel)" stroke="#303d52" stroke-width="2"/>
   <path d="M8 54H892" stroke="#26354a"/>
   <text x="30" y="37" class="title" filter="url(#glow)">COMMIT QUEST ARCADE</text>
-  <text x="870" y="34" class="micro open" text-anchor="end">● ONLINE · 2026-07-16</text>
+  <text x="870" y="34" class="micro open" text-anchor="end">● ONLINE · 2026-07-17</text>
   <text x="870" y="49" class="micro label" text-anchor="end">OPEN CARD TO EXPLORE</text>
 
   <rect x="25" y="72" width="300" height="232" rx="10" fill="#0b1422" stroke="#26354a"/>
@@ -67,14 +67,14 @@
   <text x="132" y="150" class="subtitle">THE FULL-STACK ADVENTURER</text>
   <text x="132" y="178" class="panel-title">LEVEL 15</text>
   <rect x="132" y="190" width="160" height="9" rx="4.5" fill="#17263b"/>
-  <rect x="132" y="190" width="5" height="9" rx="4.5" fill="url(#xp)"/>
-  <text x="132" y="216" class="tiny label">XP 3/100</text>
-  <text x="292" y="216" class="tiny value">1403 contributions</text>
+  <rect x="132" y="190" width="6" height="9" rx="4.5" fill="url(#xp)"/>
+  <text x="132" y="216" class="tiny label">XP 4/100</text>
+  <text x="292" y="216" class="tiny value">1404 contributions</text>
   
     <text x="58" y="238" class="small label">CODE</text>
     <rect x="118" y="228" width="176" height="8" rx="4" fill="#17263b"/>
     <rect x="118" y="228" width="42" height="8" rx="4" fill="#58a6ff"/>
-    <text x="304" y="238" class="tiny value">240</text>
+    <text x="304" y="238" class="tiny value">241</text>
   
     <text x="58" y="256" class="small label">BUILD</text>
     <rect x="118" y="246" width="176" height="8" rx="4" fill="#17263b"/>
@@ -103,8 +103,8 @@
   <text x="362" y="124" class="quest">⚔ taskbuddy</text>
   <text x="362" y="146" class="quest-note">Continue building taskbuddy.</text>
   <rect x="362" y="162" width="230" height="8" rx="4" fill="#17263b"/>
-  <rect x="362" y="162" width="7" height="8" rx="4" fill="url(#xp)"/>
-  <text x="852" y="168" class="tiny value">2 day streak</text>
+  <rect x="362" y="162" width="9" height="8" rx="4" fill="url(#xp)"/>
+  <text x="852" y="168" class="tiny value">0 day streak</text>
 
   <rect x="342" y="204" width="533" height="130" rx="10" fill="#0b1422" stroke="#26354a"/>
   <text x="362" y="228" class="panel-title">TOP REPOSITORIES</text>
