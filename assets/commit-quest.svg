@@ -40,7 +40,7 @@
   <rect x="8" y="8" width="884" height="414" rx="10" fill="url(#panel)" stroke="#303d52" stroke-width="2"/>
   <path d="M8 54H892" stroke="#26354a"/>
   <text x="30" y="37" class="title" filter="url(#glow)">COMMIT QUEST ARCADE</text>
-  <text x="870" y="34" class="micro open" text-anchor="end">● ONLINE · 2026-07-30</text>
+  <text x="870" y="34" class="micro open" text-anchor="end">● ONLINE · 2026-07-31</text>
   <text x="870" y="49" class="micro label" text-anchor="end">OPEN CARD TO EXPLORE</text>
 
   <rect x="25" y="72" width="300" height="232" rx="10" fill="#0b1422" stroke="#26354a"/>
@@ -67,19 +67,19 @@
   <text x="132" y="150" class="subtitle">THE FULL-STACK ADVENTURER</text>
   <text x="132" y="178" class="panel-title">LEVEL 16</text>
   <rect x="132" y="190" width="160" height="9" rx="4.5" fill="#17263b"/>
-  <rect x="132" y="190" width="40" height="9" rx="4.5" fill="url(#xp)"/>
-  <text x="132" y="216" class="tiny label">XP 25/100</text>
-  <text x="292" y="216" class="tiny value">1525 contributions</text>
+  <rect x="132" y="190" width="62" height="9" rx="4.5" fill="url(#xp)"/>
+  <text x="132" y="216" class="tiny label">XP 39/100</text>
+  <text x="292" y="216" class="tiny value">1539 contributions</text>
   
     <text x="58" y="238" class="small label">CODE</text>
     <rect x="118" y="228" width="176" height="8" rx="4" fill="#17263b"/>
-    <rect x="118" y="228" width="45" height="8" rx="4" fill="#58a6ff"/>
-    <text x="304" y="238" class="tiny value">257</text>
+    <rect x="118" y="228" width="46" height="8" rx="4" fill="#58a6ff"/>
+    <text x="304" y="238" class="tiny value">259</text>
   
     <text x="58" y="256" class="small label">BUILD</text>
     <rect x="118" y="246" width="176" height="8" rx="4" fill="#17263b"/>
-    <rect x="118" y="246" width="37" height="8" rx="4" fill="#7ee787"/>
-    <text x="304" y="256" class="tiny value">213</text>
+    <rect x="118" y="246" width="38" height="8" rx="4" fill="#7ee787"/>
+    <text x="304" y="256" class="tiny value">217</text>
   
     <text x="58" y="274" class="small label">DATA</text>
     <rect x="118" y="264" width="176" height="8" rx="4" fill="#17263b"/>
@@ -88,8 +88,8 @@
   
     <text x="58" y="292" class="small label">AI</text>
     <rect x="118" y="282" width="176" height="8" rx="4" fill="#17263b"/>
-    <rect x="118" y="282" width="12" height="8" rx="4" fill="#ff7b72"/>
-    <text x="304" y="292" class="tiny value">68</text>
+    <rect x="118" y="282" width="15" height="8" rx="4" fill="#ff7b72"/>
+    <text x="304" y="292" class="tiny value">84</text>
 
   <rect x="25" y="318" width="300" height="86" rx="10" fill="#0b1422" stroke="#26354a"/>
   <text x="43" y="341" class="panel-title">ABILITY LOADOUT</text>
@@ -100,11 +100,11 @@
 
   <rect x="342" y="72" width="533" height="118" rx="10" fill="#0b1422" stroke="#26354a"/>
   <text x="362" y="96" class="panel-title">CURRENT QUEST</text>
-  <text x="362" y="124" class="quest">⚔ Eduard-K-A</text>
-  <text x="362" y="146" class="quest-note">Continue building Eduard-K-A.</text>
+  <text x="362" y="124" class="quest">⚔ studdybuddy</text>
+  <text x="362" y="146" class="quest-note">a scaffold app using iblai/vibe. upload learning material, chat w…</text>
   <rect x="362" y="162" width="230" height="8" rx="4" fill="#17263b"/>
-  <rect x="362" y="162" width="58" height="8" rx="4" fill="url(#xp)"/>
-  <text x="852" y="168" class="tiny value">4 day streak</text>
+  <rect x="362" y="162" width="90" height="8" rx="4" fill="url(#xp)"/>
+  <text x="852" y="168" class="tiny value">6 day streak</text>
 
   <rect x="342" y="204" width="533" height="130" rx="10" fill="#0b1422" stroke="#26354a"/>
   <text x="362" y="228" class="panel-title">TOP REPOSITORIES</text>
@@ -134,7 +134,7 @@
     <g>
       <rect x="728" y="244" width="118" height="52" rx="7" fill="#111d2e" stroke="#d2a8ff" stroke-width="2"/>
       <circle cx="746" cy="262" r="7" fill="#d2a8ff"/>
-      <text x="760" y="265" class="tiny map-title">final-project-…</text>
+      <text x="760" y="265" class="tiny map-title">midterm-projec…</text>
       <text x="742" y="284" class="micro open">TypeScript</text>
     </g>
 
@@ -149,7 +149,7 @@
     <title>Open Eduard's GitHub profile</title>
     <rect class="click-target" x="25" y="72" width="300" height="232" rx="10"/>
   </a>
-  <a href="https://github.com/Eduard-K-A/Eduard-K-A" target="_blank">
+  <a href="https://github.com/Eduard-K-A/studdybuddy" target="_blank">
     <title>Open the current quest repository</title>
     <rect class="click-target" x="342" y="72" width="533" height="118" rx="10"/>
   </a>
@@ -165,8 +165,8 @@
     <title>Open final-project-10-webdevt</title>
     <rect class="click-target" x="604" y="244" width="118" height="52" rx="7"/>
   </a>
-  <a href="https://github.com/ShanPla/final-project-1-mobapp" target="_blank">
-    <title>Open final-project-1-mobapp</title>
+  <a href="https://github.com/Eduard-K-A/midterm-project-react-native" target="_blank">
+    <title>Open midterm-project-react-native</title>
     <rect class="click-target" x="728" y="244" width="118" height="52" rx="7"/>
   </a>
   <a href="https://github.com/Eduard-K-A?tab=achievements" target="_blank">
