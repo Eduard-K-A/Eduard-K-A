@@ -1,123 +1,83 @@
 <div align="center">
 
-# Hi, I'm Eduard King Anterola
+<img src="./ascii.svg" width="460" alt="Eduard King Anterola"/>
 
-### Computer Science Student · Full-Stack Developer · Aspiring ML Engineer
+<img src="./stats.svg" width="620" alt="Contributions in the last year"/>
 
-I build full-stack, mobile, desktop, and AI-powered software with a focus on practical, reliable user experiences.
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-0A66C2?style=for-the-badge&logo=vercel&logoColor=white)](https://eduard-king.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduard-king-anterola/)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eduardkinganterola@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Eduard-K-A)
-
-![Profile Views](https://komarev.com/ghpvc/?username=Eduard-K-A&style=flat-square&color=0A66C2)
+[portfolio](https://eduard-king.vercel.app) &nbsp;·&nbsp;
+[linkedin](https://www.linkedin.com/in/eduard-king-anterola/) &nbsp;·&nbsp;
+[email](mailto:eduardkinganterola@gmail.com)
 
 </div>
 
-## About Me
+<img src="./hd-about.svg" width="620" alt="about"/>
 
-- Studying **Bachelor of Science in Computer Science** at **De La Salle Lipa, Philippines**
-- Serving as **Back-End Developer Head** of the AWS Learning Club
-- Former **DevOps Manager Head** of DLSL AnimoDev
-- Building across full-stack web, mobile, desktop, and AI-assisted applications
-- Expanding my skills in **AI engineering, machine learning, data engineering, MLOps, and LLMOps**
-- Open to **internships, freelance engagements, entry-level roles, and remote opportunities**
+> CS student at De La Salle Lipa, in Lipa City, Philippines.<br>
+> Ship it, watch someone use it, then decide what it should have been.
 
-## Tech Stack
+Back-end lead at the AWS Learning Club, DevOps head at AnimoDev before that. Most<br>
+of what I build is full-stack — web, mobile, desktop — and lately I have been<br>
+pulling that toward AI engineering: Python, statistics, Hugging Face, LLMOps.<br>
+Open to internships, freelance work, and entry-level roles.
 
-**Languages**
+<img src="./hd-stack.svg" width="620" alt="stack"/>
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+<samp>typescript &nbsp; python &nbsp; react &nbsp; next.js &nbsp; react native &nbsp; node &nbsp; supabase &nbsp; postgres &nbsp; postgis &nbsp; sqlite &nbsp; electron &nbsp; tailwind &nbsp; git</samp>
 
-**Frontend & Mobile**
+<img src="./hd-projects.svg" width="620" alt="projects"/>
 
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+**[studdybuddy](https://github.com/Eduard-K-A/studdybuddy)** &nbsp;·&nbsp; <samp>typescript</samp><br>
+Upload your course material and an agent quizzes you on it. Reading is easy to<br>
+fake; being asked is not.
 
-**Backend & Databases**
+**[agora](https://github.com/Eduard-K-A/agora)** &nbsp;·&nbsp; <samp>typescript, electron, groq</samp><br>
+Real-time voice sales assistant that listens to a live call and feeds the rep<br>
+what they need. Top 10 finalist at an Agora-sponsored hackathon.
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![PostGIS](https://img.shields.io/badge/PostGIS-336791?style=flat-square&logo=postgresql&logoColor=white)
+**[cleanOps](https://github.com/Eduard-K-A/cleanOps)** &nbsp;·&nbsp; <samp>next.js, supabase, postgis</samp><br>
+Marketplace for home-service work, matched by real geolocation rather than a<br>
+postcode field. Realtime subscriptions, multi-role auth, mock escrow.<br>
+[Mobile client](https://github.com/Eduard-K-A/cleanOps-mobile) in React Native.
 
-**AI & Data**
+**[TaskOverflow](https://github.com/Eduard-K-A/TaskOverflow)** &nbsp;·&nbsp; <samp>electron, sqlite</samp><br>
+Local-first desktop task manager. Groups, subtasks, deadlines, no account.
 
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-
-**Tools & Deployment**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white)
-![PowerSync](https://img.shields.io/badge/PowerSync-6C47FF?style=flat-square&logoColor=white)
-
-## Leadership & Current Focus
-
-- As **Back-End Developer Head at AWS Learning Club**, I help design maintainable backend systems, promote cloud-native practices, and mentor student developers.
-- As former **DevOps Head at DLSL AnimoDev**, I supported deployment pipelines, infrastructure, and collaborative software projects.
-- I am currently deepening my knowledge of **machine learning, statistical analysis, data engineering, Hugging Face, MLOps, and LLMOps** through structured learning and hands-on projects.
-
-## GitHub Analytics
+<img src="./hd-stats.svg" width="620" alt="stats"/>
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Eduard-K-A&theme=github_dark" alt="Eduard's GitHub profile details" />
+<img src="./streak.svg" width="620" alt="Current and longest streak"/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Eduard-K-A&theme=github_dark" alt="Eduard's GitHub stats" /><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Eduard-K-A&theme=github_dark" alt="Eduard's repositories per language" />
+<img src="./langs.svg" width="620" alt="Top languages by bytes and by repository"/>
 
-</div>
-
-## GitHub Achievements
-
-<div align="center">
-
-<a href="https://github.com/Eduard-K-A?achievement=pull-shark&tab=achievements"><img width="90" src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" alt="Pull Shark achievement" /></a>
-<a href="https://github.com/Eduard-K-A?achievement=yolo&tab=achievements"><img width="90" src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" alt="YOLO achievement" /></a>
-<a href="https://github.com/Eduard-K-A?achievement=quickdraw&tab=achievements"><img width="90" src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" alt="Quickdraw achievement" /></a>
-
-**Pull Shark · YOLO · Quickdraw**
-
-### Contribution Trophies
-
-<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://trophy.ryglcloud.net/?username=Eduard-K-A&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1" alt="Eduard's GitHub contribution trophies" /></a>
+<img src="./year.svg" width="620" alt="The last year, one character per day"/>
 
 </div>
 
-## Let's Connect
+<img src="./hd-about-this-page.svg" width="620" alt="about this page"/>
 
-I am interested in software engineering, full-stack development, mobile development, and AI/ML-focused opportunities.
+Every graphic here is generated, not embedded from anyone else's server.<br>
+`ascii.svg` is a photo pushed through a character ramp by<br>
+[`scripts/make_portrait.py`](scripts/make_portrait.py); the stat graphics and<br>
+these section headings are drawn by [a scheduled action](.github/workflows/stats.yml)<br>
+straight from the GitHub GraphQL API, once a day, committing only what changed.
 
-- Portfolio: [eduard-king.vercel.app](https://eduard-king.vercel.app)
-- LinkedIn: [linkedin.com/in/eduard-king-anterola](https://www.linkedin.com/in/eduard-king-anterola/)
-- Email: [eduardkinganterola@gmail.com](mailto:eduardkinganterola@gmail.com)
-- GitHub: [github.com/Eduard-K-A](https://github.com/Eduard-K-A)
+They animate with SMIL inside the SVG, because GitHub strips scripts from<br>
+READMEs — and since nothing loads from a third party, nothing here can<br>
+rate-limit or go dark. The headings are SVGs for the same reason: GitHub also<br>
+strips CSS, so an image is the only way to put this page's own typeface on them.
 
-## Commit Quest Arcade
+The typeface is [JetBrains Mono](scripts/fonts), subset to just the characters<br>
+each graphic draws and inlined as base64. That isn't only for looks: the<br>
+portrait's grid assumes an advance width of exactly 0.600 em, and a viewer whose<br>
+default monospace is narrower would otherwise see it squeezed.
 
-My public GitHub activity powers this retro RPG character sheet and quest map, refreshed daily. Click the card to explore.
+Colours come from CSS custom properties behind a `prefers-color-scheme` query, so<br>
+one file suits both GitHub themes. Density in the portrait has to mean *the<br>
+subject*, not *the bright half of the frame*, so which end of the ramp gets the<br>
+ink is measured off the photo — centre against edges — rather than assumed. Ink<br>
+colour then flips with the theme on its own, and I stay drawn either way.
 
-<div align="center">
-
-<a href="https://raw.githubusercontent.com/Eduard-K-A/Eduard-K-A/main/assets/commit-quest.svg"><img src="./assets/commit-quest.svg" alt="Commit Quest Arcade character sheet generated from Eduard's GitHub activity" /></a>
-
-</div>
+Language totals cover public, non-fork repositories only. `year.svg` uses the<br>
+portrait's character ramp: `:` `+` `#` `@`, quiet to loud, with the cut-offs set<br>
+at quartiles of my own active days rather than fixed counts.
