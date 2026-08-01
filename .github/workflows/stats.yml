@@ -1,0 +1,57 @@
+name: stats
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats
+  cancel-in-progress: false
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: python -m pip install --quiet "fonttools[woff]" pillow
+
+      - name: Test
+        run: python -m unittest discover -s scripts -p 'test_*.py'
+
+      - name: Draw the section headings
+        run: python scripts/make_headings.py
+
+      - name: Draw the stat graphics
+        run: python scripts/make_stats.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ascii.svg is deliberately not regenerated here: it only changes when the
+      # source photo does, and the photo is not worth a daily Pillow run.
+      - name: Commit only what changed
+        run: |
+          if git diff --quiet -- '*.svg'; then
+            echo "Nothing moved today."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- '*.svg'
+          git commit -m "chore: refresh profile graphics"
+          git push
