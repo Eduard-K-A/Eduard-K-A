@@ -15,10 +15,10 @@
 > CS student at De La Salle Lipa, in Lipa City, Philippines.<br>
 > Ship it, watch someone use it, then decide what it should have been.
 
-Back-end lead at the AWS Learning Club, DevOps head at AnimoDev before that. Most<br>
-of what I build is full-stack — web, mobile, desktop — and lately I have been<br>
-pulling that toward AI engineering: Python, statistics, Hugging Face, LLMOps.<br>
-Open to internships, freelance work, and entry-level roles.
+Back-end lead at the AWS Learning Club, DevOps Manager Head at AnimoDev before<br>
+that. Most of what I build is full-stack — web, mobile, desktop — and lately I<br>
+have been pulling that toward AI engineering: Python, statistics, Hugging Face,<br>
+LLMOps. Open to internships, freelance work, and entry-level roles.
 
 <img src="./hd-stack.svg" width="620" alt="stack"/>
 
